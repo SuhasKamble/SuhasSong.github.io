@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+    background: url('/images/audience-868074_1920.jpg') no-repeat center center/cover;
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+     justify-content: center; 
+     color: white;
+}
+.music{
+    position: relative;
+    top: 0px;
+    background-color: lightblue;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.song{
+    height: 170px;
+    width: 30%;
+    border: 2px solid white;
+}
+.head{
+    position: relative;
+    text-align: center;
+}
+.home h1{
+    font-size: 5.5rem;
+}
+.a{
+    background: url('./images/audience-868074_1920.jpg') no-repeat center center/cover;
+}
+.b{
+    background: url('./images/headphones-690685_1920.jpg') no-repeat center center/cover;
+}
+
+.c{
+    background: url('./images/mobile-605422_1920.jpg') no-repeat center center/cover;
+}
+.d{
+    background: url('./images/music-2694489_1920.jpg') no-repeat center center/cover;
+}
+.e{
+    background: url('./images/notes-153132_1280.png') no-repeat center center/cover;
+}
+.f{
+    background: url('./images/rail-2803725_1920.jpg') no-repeat center center/cover;
+}
+.g{
+    background: url('./images/sky-2996551_1920.jpg') no-repeat center center/cover;
+}
+.h{
+    background: url('./images/speakers-258175_1920.jpg') no-repeat center center/cover;
+}
+.i{
+    background: url('./images/violin-1906127_1920.jpg') no-repeat center center/cover;
+}
+.artist{
+    height: 650px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-color: #92866d;
+}
+.artist h1{
+    text-align: center;
+    color: white;
+   
+}
+.boxs{
+    border: 2px solid white;
+    height: 150px;
+    width: 30%;
+}
+.box{
+height: 570px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.A{
+    background: url('./singer/24_03_2020-shahrukh_khan1_20136939.jpg')no-repeat center center/cover;
+}
+
+.B{
+    background: url('./singer/download\ \(1\).jpg')no-repeat center center/cover;
+}
+
+.C{
+    background: url('./singer/download\ \(2\).jpg')no-repeat center center/cover;
+}
+
+.D{
+    background: url('./singer/download\ \(3\).jpg')no-repeat center center/cover;
+}
+.E{
+    background: url('./singer/download\ \(4\).jpg')no-repeat center center/cover;
+}
+
+.F{
+    background: url('./singer/download\ \(5\).jpg')no-repeat center center/cover;
+}
+
+.G{
+    background: url('./singer/download\ \(6\).jpg')no-repeat center center/cover;
+}
+
+.H{
+    background: url('./singer/download\ \(7\).jpg')no-repeat center center/cover;
+}
+
+.I{
+    background: url('./singer/download\ \(8\).jpg')no-repeat center center/cover;
+}
+@media only screen and (max-width: 600px){
+    .home h1{
+        font-size: 4.4rem;
+    }
+    .song{
+        height: 150px;
+        width: 30%;
+        border: 2px solid white;
+    }
+}

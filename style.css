@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+    background: url('./images/headphones-690685_1920.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.suhas{
+    animation: suhas 9s infinite linear;
+    font-weight: bold;
+}
+.home h1{
+    font-size: 4rem;
+}
+button{
+    margin-left: -40px;
+}
+@keyframes suhas{
+    0%{
+        color: red;
+    }
+    25%{
+        color: orange;
+    }
+    50%{
+        color: orangered;
+    }
+    75%{
+        color: blue;
+    }
+    100%{
+        color: indigo;
+    }
+   
+}
+
+#btn{
+    padding: 0.5em 2em;
+    background-color: #5937c8;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+
+}
+@media only screen and (max-width: 600px) {
+    .button{
+        margin-left: -150px;
+    }
+
+}

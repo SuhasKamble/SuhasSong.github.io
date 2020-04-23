@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    height: 100vh;
+    width:100vw;
+    background: url('/images/rail-2803725_1920.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box{
+    
+    height: 400px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.input{
+    padding: 10px;
+    
+}
+.input input{
+    height: 34px;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: 2px solid black;
+
+}
+#btn{
+    background-color: blue;
+    padding: 0.3em 1.2em;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#help{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
