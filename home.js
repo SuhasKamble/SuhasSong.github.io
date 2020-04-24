@@ -110,3 +110,13 @@ function pausesong(){
             break;
     }
 }
+
+
+let boxlenght = document.querySelectorAll('.boxs').length;
+for(let i=0;i<divlenght;i++){
+    var demo = document.querySelectorAll('.boxs')[i].addEventListener('click',hello)
+   
+}
+function hello(){
+    alert('Suhas is working on this page')
+}
