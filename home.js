@@ -113,10 +113,51 @@ function pausesong(){
 
 
 let boxlenght = document.querySelectorAll('.boxs').length;
-for(let i=0;i<divlenght;i++){
-    var demo = document.querySelectorAll('.boxs')[i].addEventListener('click',hello)
+for(let i=0;i<boxlenght;i++){
+    var abs = document.querySelectorAll('.boxs')[i].addEventListener('click',hello);
    
 }
 function hello(){
-    alert('Suhas is working on this page')
+    // alert('Suhas is working on this page');
+    console.log(this)
+    let artistId=this.innerHTML;
+    switch (artistId) {
+        case 'A':
+            location.href='shahrukh.html'
+            break;
+
+            case 'B':
+            location.href='a.r.rehman.html'
+                break;
+                case 'C':
+                    location.href='aijit.html'
+            break;
+            case 'D':
+                location.href='arman.html'
+            break;
+            case 'E':
+            location.href='atif.html'
+            break;  
+            case 'F':
+            location.href='salman.html'
+            break;
+            case 'G':
+            location.href='akshay.html'
+            break;
+            case 'H':
+                location.href='hritik.html'
+            break;
+            case 'I':
+                location.href='ankit.html'
+            break;
+    
+        default:
+            break;
+    }
+
+
 }
+
+
+
+

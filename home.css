@@ -6,12 +6,12 @@
 .home{
     height: 100vh;
     width: 100vw;
-    background:url('/images/headphones-690685_1920.jpg') no-repeat center center/cover;
+    background: url('/images/audience-868074_1920.jpg') no-repeat center center/cover;
      display: flex;
      flex-direction: column;
      align-items: center; 
      justify-content: center; 
-     color: black;
+     color: white;
 }
 .music{
     position: relative;
@@ -37,7 +37,6 @@
 }
 .home h1{
     font-size: 5.5rem;
-   
 }
 .a{
     background: url('./images/audience-868074_1920.jpg') no-repeat center center/cover;
@@ -72,7 +71,7 @@
     width: 100%;
     position: relative;
     top: 0;
-    background-color: black;
+    background-color: #92866d;
 }
 .artist h1{
     text-align: center;
@@ -134,5 +133,4 @@ flex-wrap: wrap;
         width: 30%;
         border: 2px solid white;
     }
-   
 }
