@@ -30,6 +30,11 @@
     height: 170px;
     width: 30%;
     border: 2px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .head{
     position: relative;
@@ -38,6 +43,10 @@
 .home h1{
     font-size: 5.5rem;
 }
+.added{
+    color: red;
+}
+
 .a{
     background: url('./images/img.jpg') no-repeat center center/cover;
 }

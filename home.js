@@ -38,30 +38,39 @@ function playsong(){
     switch (songId) {
         case 'a':
             song1.play()
+            
             break;
             case 'b':
                 song2.play()
+               
                 break;
                 case 'c':
                     song3.play()
+                  
                     break;
                     case 'd':
                         song4.play()
+                        
                         break;
                         case 'e':
                             song5.play()
+                            
                             break;
                             case 'f':
                                 song6.play()
+                                
                                 break;
                                 case 'g':
                                     song7.play()
+                              
                                     break;
                                     case 'h':
                                         song8.play()
+                                        
                                         break;
                                         case 'i':
                                             song9.play()
+                                           
                                             break;
 
 
@@ -123,32 +132,32 @@ function hello(){
     let artistId=this.innerHTML;
     switch (artistId) {
         case 'A':
-            location.href='shahrukh.html'
+            location.href='https://gaana.com/playlist/gaana-dj-shahrukh-khan-top-50'
             break;
 
             case 'B':
-            location.href='a.r.rehman.html'
+            location.href='https://gaana.com/artist/ar-rahman'
                 break;
                 case 'C':
-                    location.href='aijit.html'
+                    location.href='https://gaana.com/artist/arijit-singh'
             break;
             case 'D':
-                location.href='arman.html'
+                location.href='https://gaana.com/artist/armaan-malik'
             break;
             case 'E':
-            location.href='atif.html'
+            location.href='https://gaana.com/artist/atif-aslam'
             break;  
             case 'F':
-            location.href='salman.html'
+            location.href='https://gaana.com/artist/salmaan-khan'
             break;
             case 'G':
-            location.href='akshay.html'
+            location.href='https://gaana.com/artist/akshay-kumar'
             break;
             case 'H':
-                location.href='hritik.html'
+                location.href='https://gaana.com/artist/hritik-roshan'
             break;
             case 'I':
-                location.href='ankit.html'
+                location.href='https://gaana.com/artist/ankit-tiwari'
             break;
     
         default:
